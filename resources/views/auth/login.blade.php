@@ -43,6 +43,11 @@
                     {{ __('Log in') }}
                 </x-button>
             </div>
+
+            </div>
+                <a style="background-color: black; color: white;" href="{{url('auth/google')}}">Sign In with Google</a>
+
+            </div>
         </form>
     </x-authentication-card>
 </x-guest-layout>
